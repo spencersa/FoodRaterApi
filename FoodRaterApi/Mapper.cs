@@ -32,5 +32,16 @@ namespace FoodRaterApi
                 Hours = restaurantTableEntity.Hours
             };
         }
+
+        public static RestaurantRatingTableEntity ToNewRestaurantRatingTableEntity(this RestaurantRatingTableEntity restaurantRating)
+        {
+            return new RestaurantRatingTableEntity()
+            {
+                PartitionKey = "Partition1",
+                RowKey = Guid.NewGuid().ToString(),
+                RestaurantRowKey = restaurantRating.RestaurantRowKey,
+                Rating = restaurantRating.Rating,
+            };
+        }
     }
 }
