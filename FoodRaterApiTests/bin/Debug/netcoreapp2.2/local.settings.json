@@ -1,0 +1,11 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+    "CLOUDTABLE_CONNECTIONSTRING": "DefaultEndpointsProtocol=https;AccountName=foodraterapibbd2;AccountKey=6KUW7ksyYI2L9DfPQzdjo+dfF8uT53eZIdVOuJsjrxNA9vraGtDdv2n+1wmfZDBQSk0ePod+mnWk1ZfxHEtxsw==;BlobEndpoint=https://foodraterapibbd2.blob.core.windows.net/;QueueEndpoint=https://foodraterapibbd2.queue.core.windows.net/;TableEndpoint=https://foodraterapibbd2.table.core.windows.net/;FileEndpoint=https://foodraterapibbd2.file.core.windows.net/;"
+  },
+  "Host": {
+    "CORS":  "*"
+  }
+}
